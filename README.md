@@ -27,3 +27,8 @@ python EmployeePredict.py --trees 10
 
 This task is spam classification using the SMS Spam Collection Dataset. [web-page](https://www.kaggle.com/uciml/sms-spam-collection-dataset)
 We implement a LSTM RNN to accomplish this task.
+
+```shell
+cd SpamClassification
+python spamClassification.py --hidden 36 --embed-dim 16
+```
